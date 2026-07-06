@@ -92,3 +92,10 @@ a {
   border-radius: 10px;
   box-shadow: 10px 5px 40px gray;
 }
+
+/* resume section */
+
+.resume-section {
+  display: flex;
+  gap: 71px;
+}
