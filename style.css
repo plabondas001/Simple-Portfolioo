@@ -12,12 +12,16 @@
   border: none;
   padding: 15px 25px;
   border-radius: 5px;
-  font-size: 1rem;
+  font-size: 1.3rem;
   cursor: pointer;
 }
+
+.common-class{
+    max-width: 1200px;
+    margin: auto;
+}
+
 .navbar {
-  max-width: 1200px;
-  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,4 +38,28 @@ a {
   text-decoration: none;
   color: black;
   font-size: 1.2rem;
+}
+
+
+/* Hero section */
+.banner-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bnr-btn {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.bnr-contact-btn {
+  background-color: #FFF8F3;
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
+  padding: 15px 25px;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  cursor: pointer;
 }
