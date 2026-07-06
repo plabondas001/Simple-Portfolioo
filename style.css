@@ -77,3 +77,18 @@ a {
   gap: 50px;
   margin-top: 30px;
 }
+
+.skill-details {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 50px;
+  margin-bottom: 130px;
+  gap: 45px;
+}
+
+.js-details {
+  height: 300px;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 10px 5px 40px gray;
+}
