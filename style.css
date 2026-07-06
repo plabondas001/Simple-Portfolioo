@@ -99,3 +99,44 @@ a {
   display: flex;
   gap: 71px;
 }
+
+
+/* work section */
+.gellary{
+    margin-top: 40px;
+    text-align: center;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 250px;
+    grid-template-areas: 
+    "one two three"
+    "four two six"
+    "four five six"
+}
+
+.gellary img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.img1{
+    grid-area: one;
+}
+.img2{
+    grid-area: two;
+}
+.img3{
+    grid-area: three;
+}
+.img4{
+    grid-area: four;
+}
+.img5{
+    grid-area: five;
+}
+.img6{
+    grid-area: six;
+}
