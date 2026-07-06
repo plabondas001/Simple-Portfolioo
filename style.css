@@ -16,9 +16,9 @@
   cursor: pointer;
 }
 
-.common-class{
-    max-width: 1200px;
-    margin: auto;
+.common-class {
+  max-width: 1200px;
+  margin: auto;
 }
 
 .navbar {
@@ -40,7 +40,6 @@ a {
   font-size: 1.2rem;
 }
 
-
 /* Hero section */
 .banner-section {
   display: flex;
@@ -55,11 +54,26 @@ a {
 }
 
 .bnr-contact-btn {
-  background-color: #FFF8F3;
+  background-color: #fff8f3;
   border: 1px solid #fd6e0a;
   color: #fd6e0a;
   padding: 15px 25px;
   border-radius: 5px;
   font-size: 1.3rem;
   cursor: pointer;
+}
+
+/* about section */
+.about-section {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+.about-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+  margin-top: 30px;
 }
